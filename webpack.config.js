@@ -22,7 +22,7 @@ module.exports = {
 	},
 	externals: {
 		d3: true,
-		react: 'react'
+		react: 'React'
 	},
 	devtool: 'eval'
 };

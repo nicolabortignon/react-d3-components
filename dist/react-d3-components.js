@@ -1,12 +1,12 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("d3"));
+		module.exports = factory(require("React"), require("d3"));
 	else if(typeof define === 'function' && define.amd)
-		define(["react", "d3"], factory);
+		define(["React", "d3"], factory);
 	else if(typeof exports === 'object')
-		exports["ReactD3"] = factory(require("react"), require("d3"));
+		exports["ReactD3"] = factory(require("React"), require("d3"));
 	else
-		root["ReactD3"] = factory(root["react"], root["d3"]);
+		root["ReactD3"] = factory(root["React"], root["d3"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -54,7 +54,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nvar BarChart = __webpack_require__(1);\nvar Waveform = __webpack_require__(15);\nvar PieChart = __webpack_require__(16);\nvar ScatterPlot = __webpack_require__(18);\nvar LineChart = __webpack_require__(19);\nvar AreaChart = __webpack_require__(21);\nvar Brush = __webpack_require__(22);\nvar d3 = __webpack_require__(3);\n\nmodule.exports = {\n    BarChart: BarChart,\n    PieChart: PieChart,\n    ScatterPlot: ScatterPlot,\n    LineChart: LineChart,\n    AreaChart: AreaChart,\n    Waveform: Waveform,\n    Brush: Brush,\n    d3: d3\n};\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/index.jsx\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/index.jsx?");
+	eval("\"use strict\";\n\nvar BarChart = __webpack_require__(1);\nvar Waveform = __webpack_require__(15);\nvar PieChart = __webpack_require__(16);\nvar ScatterPlot = __webpack_require__(18);\nvar LineChart = __webpack_require__(19);\nvar AreaChart = __webpack_require__(21);\nvar Brush = __webpack_require__(22);\n\nmodule.exports = {\n    BarChart: BarChart,\n    PieChart: PieChart,\n    ScatterPlot: ScatterPlot,\n    LineChart: LineChart,\n    AreaChart: AreaChart,\n    Waveform: Waveform,\n    Brush: Brush\n};\n\n/*****************\n ** WEBPACK FOOTER\n ** ./src/index.jsx\n ** module id = 0\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./src/index.jsx?");
 
 /***/ },
 /* 1 */
@@ -66,7 +66,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 2 */
 /***/ function(module, exports) {
 
-	eval("module.exports = __WEBPACK_EXTERNAL_MODULE_2__;\n\n/*****************\n ** WEBPACK FOOTER\n ** external \"react\"\n ** module id = 2\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///external_%22react%22?");
+	eval("module.exports = __WEBPACK_EXTERNAL_MODULE_2__;\n\n/*****************\n ** WEBPACK FOOTER\n ** external \"React\"\n ** module id = 2\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///external_%22React%22?");
 
 /***/ },
 /* 3 */
