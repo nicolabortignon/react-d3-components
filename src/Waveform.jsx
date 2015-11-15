@@ -172,7 +172,7 @@ let Waveform = React.createClass({
             null,
             React.createElement(
                 Chart,
-                { height: height, width: '100%', margin: margin, viewBox: viewBox, preserveAspectRatio: preserveAspectRatio},
+                { height: height, width: width, margin: margin, viewBox: viewBox, preserveAspectRatio: preserveAspectRatio},
                 React.createElement(DataSet, {
                     data: data,
                     xScale: xScale,
